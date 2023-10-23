@@ -7,7 +7,7 @@ let promise = new Promise((resolve, reject) => {
 		} else {
 			reject(number);
 		}
-	}, 1000);
+	}, 3000);
 });
 
 function generateRandomNumber(min, max) {
